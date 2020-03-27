@@ -450,7 +450,8 @@ h1, h2, h3, h4, h5,
       padding-bottom: 3rem; } }
   .site-navbar .toggle-button {
     position: absolute;
-    right: 0px; }
+    right: 0px;
+      }
   .site-navbar .site-navigation.border-bottom {
     border-bottom: 1px solid white !important; }
   .site-navbar .site-navigation .site-menu {
