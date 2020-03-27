@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+ 
+.logo a img{
+    width:4rem;
+    margin-left:30px;
+}
+.navbar-toggler img{
+    width:3rem;
+}
+
+/* chapterlogo */
+.chapterLogo{
+    width:100%;
+}
+/* welcome section */
+   
+  #grad{
+    
+    font-size:70px;
+    font-family: "Algerian"; 
+    font-stretch: ultra-expanded;
+    font-weight:bold;
+    text-align: center;
+    background: linear-gradient(to left, #112563 40%, #F18536 80%, #112563 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  text-emphasis-color: transparent;
+  background-size: 200% auto;
+  animation: textShine 8s infinite reverse ;
+}
+
+@keyframes textShine {
+  to {
+    background-position: 200%;
+  }
+}
+
+#about p{
+  font-size: 20px;
+
+}
+/*events*/
+#event{
+  background: linear-gradient(90deg,rgb(26, 25, 25),rgb(53, 52, 52));
+  
+}
+#event p {
+  color: #fff;
+}
+#event h2{
+  color: #fff;
+}
+.eventsec p{
+  font-size: 20px;
+}
+/* ourChapters */
+.ourChapters img{
+  transition:0.3s;
+}
+.ourChapters img:hover{
+  transform: scale(1.2);
+}
+.pesLogo img{
+  width:90%;
+}
+
+
+#myModal {
+    text-align: center;
+}
+
+  /* member count */
+
+  .my-card
+{
+    position:absolute;
+    left:40%;
+    top:-20px;
+    border-radius:50%;
+}
+  #member{
+    background: linear-gradient(90deg,rgb(26, 25, 25),rgb(53, 52, 52));
+  }
+  
+  /*Our Team*/
+  .team{
+     background: linear-gradient(90deg,rgb(26, 25, 25),rgb(53, 52, 52));
+      padding-top: 20px;
+  }
+#team h1{
+  margin-top:30px;
+}
+#contact h1{
+  margin-top:30px;
+}
+  
+/* Contact us */
+  .contactUs-wrapper{
+    width:100%;
+    height:70vh;
+    background: #000 url(images/nieccp.jpg);
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:2vw;
+  }
+  .overlay{
+      width:100%;
+      height:70vh;
+      background: #000;
+      opacity:.7;
+  }
+  .overlay h1{
+      text-align:center;
+      z-index:1;
+  }
+ /* Footer */
+ .colorWhite { 
+     color:#FFF;
+    }
+footer { 
+    width:100%; 
+    background-color:#1b1e24; 
+    min-height:250px; 
+    padding:10px 0px 25px 0px ;
+    font-family:sans-serif;
+}
+.pt { 
+    padding-top:40px ; 
+    margin-bottom:20px ;
+}
+footer p { 
+    font-size:13px; color:#CCC; 
+    padding-bottom:0px; margin-bottom:8px;
+}
+.mb10 {
+     padding-bottom:15px ;
+    }
+.footerCol2 { 
+    margin:0px ; 
+    list-style-type:none ; 
+    font-size:15px; 
+    padding:0px 0px 10px 0px ; 
+}
+.footerCol2 li {
+    padding:0px 0px 5px 0px;
+}
+.footerCol2 li a{ 
+    color:#CCC;
+}
+.footerCol2 li a:hover{ 
+    color:#fff; 
+    text-decoration:none;
+}
+.fcenter { 
+    text-align:center;
+}
+.footerCol3 li a img{
+    width:80px;
+    padding:10px;
+}
+.padding-right { 
+    padding-right:10px; 
+}
+
+.footerCol3 {
+    margin:10px; 
+    list-style-type:none; 
+    padding:0px;
+}
+.footerCol3 li a img{
+    float:left;
+    display: flex;
+}
+.footerCol3 li a img{
+    display:table;
+}
+.footerCol3 li a img:hover {                transform: scale(1.4);
+}
+.footerCol3 li i { 
+    margin-top:5px;
+}
+
+.seperation { 
+    border-bottom:1px solid #323f45; padding-bottom:20px;
+}
+.lowerFooter {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.lowerFooter li {                  display:inline;
+}
+.lowerFooter li a { 
+    color:#999; 
+    margin:0 12px;
+}
+
+.socialFooter { 
+    display:table; 
+    margin:15px auto 0 auto; list-style-type:none;  
+}
+.socialFooter li { 
+    padding-left:20px; 
+    padding-top:10px; 
+    float:left; 
+}
+.socialFooter li a { 
+    color:#CCC; 
+    border:1px solid #CCC; 
+    padding:8px;
+    border-radius:50%;
+}
+.socialFooter li i {  
+    width:20px; 
+    height:20px; 
+    text-align:center;
+}
+.socialFooter li a i:hover{
+    color:#fff;
+    transform:scale(1.2);
+}
+.map{
+    padding-right:1rem;
+   }
